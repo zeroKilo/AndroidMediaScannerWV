@@ -31,3 +31,7 @@ Tool to quickly find and extract media files from android phones
 ### Thanks to Dev007 for the arabic translation
 
 <img width="1172" height="719" alt="image" src="https://github.com/user-attachments/assets/333c20f4-e36d-4670-8ba5-03ca83a930ed" />
+
+### Thanks to Eudaimonium for the croatian translation
+
+<img width="1172" height="719" alt="image" src="https://github.com/user-attachments/assets/041b3cf0-be9f-49f1-a386-4eb0ad9f023a" />
