@@ -83,7 +83,8 @@
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 38);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 46);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -94,8 +95,9 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.tabControl1);
-            this.splitContainer1.Size = new System.Drawing.Size(936, 483);
-            this.splitContainer1.SplitterDistance = 310;
+            this.splitContainer1.Size = new System.Drawing.Size(1248, 597);
+            this.splitContainer1.SplitterDistance = 413;
+            this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 1;
             // 
             // checkedListBox1
@@ -104,9 +106,10 @@
             this.checkedListBox1.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.IntegralHeight = false;
-            this.checkedListBox1.Location = new System.Drawing.Point(0, 40);
+            this.checkedListBox1.Location = new System.Drawing.Point(0, 49);
+            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(310, 443);
+            this.checkedListBox1.Size = new System.Drawing.Size(413, 548);
             this.checkedListBox1.TabIndex = 1;
             // 
             // button1
@@ -114,8 +117,9 @@
             this.button1.Dock = System.Windows.Forms.DockStyle.Top;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(310, 40);
+            this.button1.Size = new System.Drawing.Size(413, 49);
             this.button1.TabIndex = 0;
             this.button1.Text = "Refresh";
             this.button1.UseVisualStyleBackColor = true;
@@ -128,18 +132,20 @@
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(622, 483);
+            this.tabControl1.Size = new System.Drawing.Size(830, 597);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.splitContainer2);
-            this.tabPage1.Location = new System.Drawing.Point(4, 34);
+            this.tabPage1.Location = new System.Drawing.Point(4, 39);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(614, 445);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Size = new System.Drawing.Size(822, 554);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Ergebnis";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -147,7 +153,8 @@
             // splitContainer2
             // 
             this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer2.Location = new System.Drawing.Point(3, 3);
+            this.splitContainer2.Location = new System.Drawing.Point(4, 4);
+            this.splitContainer2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer2.Name = "splitContainer2";
             this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -159,8 +166,9 @@
             // 
             this.splitContainer2.Panel2.Controls.Add(this.checkBox5);
             this.splitContainer2.Panel2.Controls.Add(this.pic1);
-            this.splitContainer2.Size = new System.Drawing.Size(608, 439);
-            this.splitContainer2.SplitterDistance = 307;
+            this.splitContainer2.Size = new System.Drawing.Size(814, 546);
+            this.splitContainer2.SplitterDistance = 381;
+            this.splitContainer2.SplitterWidth = 5;
             this.splitContainer2.TabIndex = 0;
             // 
             // listBox1
@@ -169,11 +177,12 @@
             this.listBox1.Font = new System.Drawing.Font("Courier New", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.IntegralHeight = false;
-            this.listBox1.ItemHeight = 17;
+            this.listBox1.ItemHeight = 21;
             this.listBox1.Location = new System.Drawing.Point(0, 0);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBox1.Name = "listBox1";
             this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox1.Size = new System.Drawing.Size(608, 307);
+            this.listBox1.Size = new System.Drawing.Size(814, 381);
             this.listBox1.TabIndex = 1;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -183,8 +192,9 @@
             this.checkBox5.Checked = true;
             this.checkBox5.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox5.Location = new System.Drawing.Point(0, 0);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(122, 29);
+            this.checkBox5.Size = new System.Drawing.Size(151, 35);
             this.checkBox5.TabIndex = 14;
             this.checkBox5.Text = "Vorschau";
             this.checkBox5.UseVisualStyleBackColor = true;
@@ -193,8 +203,9 @@
             // 
             this.pic1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pic1.Location = new System.Drawing.Point(0, 0);
+            this.pic1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pic1.Name = "pic1";
-            this.pic1.Size = new System.Drawing.Size(608, 128);
+            this.pic1.Size = new System.Drawing.Size(814, 160);
             this.pic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pic1.TabIndex = 0;
             this.pic1.TabStop = false;
@@ -214,10 +225,11 @@
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Controls.Add(this.panel1);
             this.tabPage2.Controls.Add(this.label1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 34);
+            this.tabPage2.Location = new System.Drawing.Point(4, 39);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(614, 445);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Size = new System.Drawing.Size(822, 554);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Export...";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -227,9 +239,10 @@
             this.checkBox6.AutoSize = true;
             this.checkBox6.Checked = true;
             this.checkBox6.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox6.Location = new System.Drawing.Point(295, 88);
+            this.checkBox6.Location = new System.Drawing.Point(620, 107);
+            this.checkBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(115, 29);
+            this.checkBox6.Size = new System.Drawing.Size(142, 35);
             this.checkBox6.TabIndex = 14;
             this.checkBox6.Text = "Sonstige";
             this.checkBox6.UseVisualStyleBackColor = true;
@@ -239,9 +252,10 @@
             this.checkBox4.AutoSize = true;
             this.checkBox4.Checked = true;
             this.checkBox4.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox4.Location = new System.Drawing.Point(8, 248);
+            this.checkBox4.Location = new System.Drawing.Point(11, 305);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(373, 29);
+            this.checkBox4.Size = new System.Drawing.Size(465, 35);
             this.checkBox4.TabIndex = 12;
             this.checkBox4.Text = "Existierende Dateien überschreiben";
             this.checkBox4.UseVisualStyleBackColor = true;
@@ -250,9 +264,10 @@
             // 
             this.button3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button3.Location = new System.Drawing.Point(3, 409);
+            this.button3.Location = new System.Drawing.Point(4, 509);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(608, 33);
+            this.button3.Size = new System.Drawing.Size(814, 41);
             this.button3.TabIndex = 11;
             this.button3.Text = "Kopieren...";
             this.button3.UseVisualStyleBackColor = true;
@@ -264,16 +279,18 @@
             this.comboBox2.Items.AddRange(new object[] {
             "Alle",
             "Ausgewählte"});
-            this.comboBox2.Location = new System.Drawing.Point(3, 209);
+            this.comboBox2.Location = new System.Drawing.Point(4, 257);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(607, 33);
+            this.comboBox2.Size = new System.Drawing.Size(808, 38);
             this.comboBox2.TabIndex = 10;
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(3, 184);
+            this.label4.Location = new System.Drawing.Point(4, 226);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(607, 25);
+            this.label4.Size = new System.Drawing.Size(809, 31);
             this.label4.TabIndex = 9;
             this.label4.Text = "Auswahl:";
             // 
@@ -283,16 +300,18 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Unterordner Erhalten",
             "Flach"});
-            this.comboBox1.Location = new System.Drawing.Point(3, 148);
+            this.comboBox1.Location = new System.Drawing.Point(4, 182);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(607, 33);
+            this.comboBox1.Size = new System.Drawing.Size(808, 38);
             this.comboBox1.TabIndex = 8;
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(3, 120);
+            this.label3.Location = new System.Drawing.Point(4, 148);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(607, 25);
+            this.label3.Size = new System.Drawing.Size(809, 31);
             this.label3.TabIndex = 7;
             this.label3.Text = "Ausgabe Struktur:";
             // 
@@ -301,9 +320,10 @@
             this.checkBox3.AutoSize = true;
             this.checkBox3.Checked = true;
             this.checkBox3.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox3.Location = new System.Drawing.Point(203, 88);
+            this.checkBox3.Location = new System.Drawing.Point(410, 108);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(86, 29);
+            this.checkBox3.Size = new System.Drawing.Size(105, 35);
             this.checkBox3.TabIndex = 6;
             this.checkBox3.Text = "Audio";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -313,9 +333,10 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Checked = true;
             this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox2.Location = new System.Drawing.Point(100, 88);
+            this.checkBox2.Location = new System.Drawing.Point(190, 108);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(97, 29);
+            this.checkBox2.Size = new System.Drawing.Size(119, 35);
             this.checkBox2.TabIndex = 5;
             this.checkBox2.Text = "Videos";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -325,9 +346,10 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Location = new System.Drawing.Point(8, 88);
+            this.checkBox1.Location = new System.Drawing.Point(11, 108);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(86, 29);
+            this.checkBox1.Size = new System.Drawing.Size(105, 35);
             this.checkBox1.TabIndex = 4;
             this.checkBox1.Text = "Bilder";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -335,9 +357,10 @@
             // label2
             // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label2.Location = new System.Drawing.Point(3, 58);
+            this.label2.Location = new System.Drawing.Point(4, 72);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(608, 25);
+            this.label2.Size = new System.Drawing.Size(814, 31);
             this.label2.TabIndex = 3;
             this.label2.Text = "Datei Typen:";
             // 
@@ -346,26 +369,29 @@
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(3, 28);
+            this.panel1.Location = new System.Drawing.Point(4, 35);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(608, 30);
+            this.panel1.Size = new System.Drawing.Size(814, 37);
             this.panel1.TabIndex = 13;
             // 
             // textBox1
             // 
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox1.Location = new System.Drawing.Point(0, 0);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(566, 31);
+            this.textBox1.Size = new System.Drawing.Size(758, 37);
             this.textBox1.TabIndex = 4;
             // 
             // button2
             // 
             this.button2.Dock = System.Windows.Forms.DockStyle.Right;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(566, 0);
+            this.button2.Location = new System.Drawing.Point(758, 0);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(42, 30);
+            this.button2.Size = new System.Drawing.Size(56, 37);
             this.button2.TabIndex = 3;
             this.button2.Text = "...";
             this.button2.UseVisualStyleBackColor = true;
@@ -374,9 +400,10 @@
             // label1
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Location = new System.Drawing.Point(3, 3);
+            this.label1.Location = new System.Drawing.Point(4, 4);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(608, 25);
+            this.label1.Size = new System.Drawing.Size(814, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ausgabe Ordner:";
             // 
@@ -387,23 +414,24 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pb1,
             this.status});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 521);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 643);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(936, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1248, 25);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // pb1
             // 
             this.pb1.Name = "pb1";
-            this.pb1.Size = new System.Drawing.Size(100, 16);
+            this.pb1.Size = new System.Drawing.Size(133, 17);
             this.pb1.Step = 1;
             this.pb1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             // 
             // status
             // 
             this.status.Name = "status";
-            this.status.Size = new System.Drawing.Size(0, 17);
+            this.status.Size = new System.Drawing.Size(0, 19);
             // 
             // toolStrip1
             // 
@@ -416,7 +444,7 @@
             this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(936, 38);
+            this.toolStrip1.Size = new System.Drawing.Size(1248, 46);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -424,28 +452,28 @@
             // 
             this.toolStripLabel2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(87, 35);
+            this.toolStripLabel2.Size = new System.Drawing.Size(111, 43);
             this.toolStripLabel2.Text = "Sprache";
             // 
             // toolStripComboBox2
             // 
             this.toolStripComboBox2.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripComboBox2.Name = "toolStripComboBox2";
-            this.toolStripComboBox2.Size = new System.Drawing.Size(226, 38);
+            this.toolStripComboBox2.Size = new System.Drawing.Size(300, 46);
             this.toolStripComboBox2.SelectedIndexChanged += new System.EventHandler(this.toolStripComboBox2_SelectedIndexChanged);
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(61, 35);
+            this.toolStripLabel1.Size = new System.Drawing.Size(79, 43);
             this.toolStripLabel1.Text = "Profil";
             // 
             // toolStripComboBox1
             // 
             this.toolStripComboBox1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripComboBox1.Name = "toolStripComboBox1";
-            this.toolStripComboBox1.Size = new System.Drawing.Size(226, 38);
+            this.toolStripComboBox1.Size = new System.Drawing.Size(300, 46);
             // 
             // toolStripButton1
             // 
@@ -455,18 +483,19 @@
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(103, 35);
+            this.toolStripButton1.Size = new System.Drawing.Size(131, 43);
             this.toolStripButton1.Text = "Scannen";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(936, 543);
+            this.ClientSize = new System.Drawing.Size(1248, 668);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Android Media Scanner by Warranty Voider";
             this.splitContainer1.Panel1.ResumeLayout(false);

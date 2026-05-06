@@ -1,0 +1,26 @@
+Idioma
+Perfil
+Todos
+Escanear
+Actualizar
+Vista previa
+Resultado
+Exportar
+Guardar en:
+Tipos de archivo:
+Imágenes
+Vídeos
+Audio
+Otros
+Estructura de salida:
+Mantener estructura de carpetas
+Todos en una sola carpeta
+Selección:
+Archivos seleccionados
+Sobreescribir archivos existentes
+Copiar...
+Ordenando...
+Hecho. Encontrados:
+Procesando "$0"... Encontrados hasta ahora:
+($0/$1) Exportando $2...
+Hecho
