@@ -1,0 +1,26 @@
+Jezik
+Profil
+Sve
+Skeniraj
+Osvježi
+Prikaz
+Rezultat
+Export...
+Odredišna datoteka:
+Tipovi:
+Slike
+Video zapisi
+Zvuk
+Ostalo
+Izlazna struktura:
+Zadrži strukturu datoteke
+Sve u jedan folder
+Odabir:
+Odabrano
+Prebriši odabrano
+Kopiraj...
+Sortiranje...
+Gotovo. Pronađeno: 
+Procesiranje "$0" ... nađeno do sada: 
+($0/$1) Exporting $2 ...
+Gotovo
