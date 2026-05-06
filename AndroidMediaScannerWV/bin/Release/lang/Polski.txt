@@ -1,0 +1,26 @@
+Język
+Profil
+Wszystkie
+Skanuj
+Odśwież
+Podgląd
+Wynik
+Eksportuj...
+Folder wyjściowy:
+Typy plików:
+Zdjęcia
+Filmy
+Dźwięki
+Inne
+Format wyjścia:
+Zachowaj strukture folderów
+Bez zachowania struktury katalogów
+Zaznaczone:
+Zaznaczone pliki
+Nadpisz istniejące pliki
+Kopiuj...
+Sortowanie...
+Gotowe. Znaleziono: 
+Przetworzono "$0" ... Do tej pory znaleziono: 
+($0/$1) Eksportowanie $2 ...
+Gotowe

@@ -1,0 +1,26 @@
+Sprache
+Profil
+Alle
+Scannen
+Refresh
+Vorschau
+Ergebnis
+Export...
+Ausgabe Ordner:
+Datei Typen:
+Bilder
+Videos
+Audio
+Sonstige
+Ausgabe Struktur:
+Unterordner Erhalten
+Flach
+Auswahl:
+Ausgewählte Dateien
+Existierende Dateien überschreiben
+Kopieren...
+Sortiere...
+Fertig. Gefunden: 
+Untersuche "$0" ... Gefunden bisher: 
+($0/$1) Exportiere $2 ...
+Fertig

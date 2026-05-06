@@ -1,0 +1,5 @@
+dcim
+download
+movies
+music
+pictures

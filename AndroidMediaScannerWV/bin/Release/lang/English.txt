@@ -1,0 +1,26 @@
+Language
+Profile
+All
+Scan
+Refresh
+Preview
+Result
+Export...
+Output folder:
+Filetypes:
+Images
+Videos
+Audio
+Other
+Output structure:
+Keep folder structure
+Flat
+Selection:
+Selected Files
+Overwrite existing files
+Copy...
+Sorting...
+Done. Found: 
+Processing "$0" ... Found sofar: 
+($0/$1) Exporting $2 ...
+Done

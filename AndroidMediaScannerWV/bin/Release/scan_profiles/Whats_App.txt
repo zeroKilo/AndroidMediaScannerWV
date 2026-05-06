@@ -1,0 +1,2 @@
+android/data/com.whatsapp
+android/media/com.whatsapp
