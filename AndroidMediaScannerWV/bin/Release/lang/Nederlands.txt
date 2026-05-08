@@ -1,0 +1,26 @@
+Taal
+Profiel
+Alle
+Scan
+Herlaad
+Voorbeeld
+Resultaat
+Exporteren...
+Uitgaande map:
+Bestandstypes:
+Afbeeldingen
+Videos
+Geluid
+Andere
+Uitgaande structuur:
+Behoud map structuur
+Vlak
+Selectie:
+Geselecteerde Bestanden
+Overschrijf bestaande bestanden
+Kopieer...
+Sorteren...
+Klaar. Gevonden: 
+Verwerken "$0" ... Gevonden: 
+($0/$1) Exporteren $2 ...
+Klaar
