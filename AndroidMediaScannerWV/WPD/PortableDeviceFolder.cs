@@ -29,12 +29,12 @@ namespace AndroidMediaScannerWV
         public void EnumerateContents(ref IPortableDeviceContent content, bool recursive = false)
         {
             Log.PrintLine("Enumerating contents for " + Name + "...");
-            Application.DoEvents();
             IPortableDeviceProperties properties;
             Log.PrintLine("Getting properties...");
             content.Properties(out properties);
             IEnumPortableDeviceObjectIDs objectIds;
             Log.PrintLine("Getting object IDs...");
+            Application.DoEvents();
             content.EnumObjects(0, Id, null, out objectIds);
             IEnumPortableDeviceObjectIDsFixed objIdsFixed = (IEnumPortableDeviceObjectIDsFixed)objectIds;
             uint fetched = 0;
@@ -42,6 +42,7 @@ namespace AndroidMediaScannerWV
             string[] result = new string[batch];
             do
             {
+                Application.DoEvents();
                 objIdsFixed.Next(batch, result, ref fetched);
                 Log.PrintLine("Requested " + batch + " IDs, got " + fetched);
                 for (int i = 0; i < fetched; i++)
